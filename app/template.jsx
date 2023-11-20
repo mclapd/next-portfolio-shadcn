@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import useScrollProgress from "@/hooks/useScrollProgress";
+import { useScrollProgress } from "@/hooks/useScrollProgress";
 
 const variants = {
   hidden: { opacity: 0 },
   enter: { opacity: 1 },
 };
 
-const template = ({ children }) => {
+const Template = ({ children }) => {
   const completion = useScrollProgress();
 
   return (
@@ -30,4 +30,4 @@ const template = ({ children }) => {
   );
 };
 
-export default template;
+export default Template;

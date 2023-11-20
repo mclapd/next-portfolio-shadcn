@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-const useScrollProgress = () => {
+export const useScrollProgress = () => {
   const [completion, setCompletion] = useState(0);
 
   useEffect(() => {
@@ -22,5 +22,3 @@ const useScrollProgress = () => {
 
   return completion;
 };
-
-export default useScrollProgress;
