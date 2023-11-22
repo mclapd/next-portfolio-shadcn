@@ -99,8 +99,9 @@ const Work = () => {
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
-            I gave a second chance to Cupid But now I'm left here feeling stupid
-            Oh, the way he makes me feel that love isn't real Cupid is so dumb
+            I gave a second chance to Cupid But now I am left here feeling
+            stupid Oh, the way he makes me feel that love is not real Cupid is
+            so dumb
           </p>
           <Link href="/projects">
             <Button>All projects</Button>
